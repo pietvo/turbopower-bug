@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+    </style>
+</head>
+<body>
+    
+
+<h2 id="introduction">Introduction</h2>
+<p>Midi2Text (also MidiToText, or MF2T) is a collection of programs to
+convert Standard Midi Files to a textual representation and back. The
+collection consists of two command line programs, mf2t and t2mf, and a
+GUI to use these without using the command line.</p>
+<p>The command line programs are included in the GUI application
+distribution, but they can also be downloaded separately if you want to
+use them directly from the command line, or in scripts. This may be
+easier than to extract them from the distribution.</p>
+<h2 id="midi-to-text">MIDI to TEXT</h2>
+<figure>
+<img alt="Midi to Text" src="mf2t-ann.png"/>
+<figcaption aria-hidden="true">Midi to Text</figcaption>
+</figure>
+<h2 id="text-to-midi">TEXT to MIDI</h2>
+<figure>
+<img alt="Text to Midi" src="t2mf.png"/>
+<figcaption aria-hidden="true">Text to Midi</figcaption>
+</figure>
+<h2 id="editor-keys">Editor Keys</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Action</th>
+<th style="text-align: left;">Linux/Windows</th>
+<th style="text-align: left;">macOS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Up</td>
+<td style="text-align: left;">⬆</td>
+<td style="text-align: left;">⬆</td>
+</tr>
+<tr>
+<td style="text-align: left;">Down</td>
+<td style="text-align: left;">⬇</td>
+<td style="text-align: left;">⬇</td>
+</tr>
+<tr>
+<td style="text-align: left;">Left</td>
+<td style="text-align: left;">⬅</td>
+<td style="text-align: left;">⬅</td>
+</tr>
+<tr>
+<td style="text-align: left;">Right</td>
+<td style="text-align: left;">➡</td>
+<td style="text-align: left;">➡</td>
+</tr>
+<tr>
+<td style="text-align: left;">Select Up</td>
+<td style="text-align: left;">Shift-⬆</td>
+<td style="text-align: left;">Shift-⬆</td>
+</tr>
+<tr>
+<td style="text-align: left;">Select Down</td>
+<td style="text-align: left;">Shift-⬇</td>
+<td style="text-align: left;">Shift-⬇</td>
+</tr>
+<tr>
+<td style="text-align: left;">Select Left</td>
+<td style="text-align: left;">Shift-⬅</td>
+<td style="text-align: left;">Shift-⬅</td>
+</tr>
+<tr>
+<td style="text-align: left;">Select Right</td>
+<td style="text-align: left;">Shift-➡</td>
+<td style="text-align: left;">Shift-➡</td>
+</tr>
+<tr>
+<td style="text-align: left;">Scroll Up</td>
+<td style="text-align: left;">Ctrl-⬆</td>
+<td style="text-align: left;">⬆</td>
+</tr>
+<tr>
+<td style="text-align: left;">Scroll Down</td>
+<td style="text-align: left;">Ctrl-⬇</td>
+<td style="text-align: left;">⬇</td>
+</tr>
+<tr>
+<td style="text-align: left;">Word Left</td>
+<td style="text-align: left;">Ctrl-⬅</td>
+<td style="text-align: left;">⬅</td>
+</tr>
+<tr>
+<td style="text-align: left;">Word Right</td>
+<td style="text-align: left;">Ctrl-➡</td>
+<td style="text-align: left;">➡</td>
+</tr>
+<tr>
+<td style="text-align: left;">Select Word Left</td>
+<td style="text-align: left;">Shift-Ctrl-⬅</td>
+<td style="text-align: left;">⬅</td>
+</tr>
+<tr>
+<td style="text-align: left;">Select Word Right</td>
+<td style="text-align: left;">Shift-Ctrl-➡</td>
+<td style="text-align: left;">➡</td>
+</tr>
+<tr>
+<td style="text-align: left;">:–</td>
+<td style="text-align: left;">:–</td>
+<td style="text-align: left;">:–</td>
+</tr>
+</tbody>
+</table>
+<p>⎇</p>
+<h2 id="command-line-programs">Command line programs</h2>
+<h2 id="file-format">File format</h2>
+<h2 id="history">History</h2>
+<p>This is a revival of the programs mf2t and t2mf that I wrote starting
+in 1991, for the Atari ST (32-bit), MS-DOS (16-bit) and later Unix
+(probably 32-bits).</p>
+<p>I picked this up again in 2023 after some people asked me for
+executables for modern Windows (presumably 32- or 64-bit). I use a Mac,
+so I also needed newer versions, for 64-bit macOS (in that time MacOS
+Ventura).</p>
+<p>Modern C-compilers are much more picky than the Kernighan &amp;
+Ritchie C-compilers that I first used. So the source code had to be
+adjusted to conform to more modern C standards (in this case C23). The
+bulk of this work had been done (as far as I know) by Mats Peterson (see
+below).</p>
+<p>I also found a number of changed versions by different people on the
+Internet, mainly for compiling on Windows 32-bit (for example
+Windows-XP, which still runs on Windows 11). I’ll try to mention all
+people who contributed but some contributions were anonymous.</p>
+<p>This repository contains the history of the source code as far as
+possible but, for example, the Original RCS repository for the source
+code has been lost, so the history is a crude approximation.</p>
+<p>All the text files have been converted to Unix format, using UTF-8
+when ASCII isn’t sufficient. If you need a Windows or other format,
+please convert them yourselves.</p>
+<p>In 2026 I added a Graphical User Interface (GUI), written in Free
+Pascal.</p>
+<h2 id="list-of-contributors">List of contributors</h2>
+<p><strong>NOTE:</strong> Probably several email addresses are out of
+date. I have tried to replace the email addresses with current ones, and
+added website URLs where possible. Some contributions have been
+superseded by later changes,</p>
+<ul>
+<li>Tim Thompson, <a class="email" href="mailto:me@timthompson.com">me@timthompson.com</a> Original midi library. He has
+written a lot of MIDI software and compositions. See <a class="uri" href="https://timthompson.com/tjt/">https://timthompson.com/tjt/</a>.</li>
+<li>Michael Czeiszperger <a class="email" href="mailto:michael@czei.org">michael@czei.org</a> added writing capabilities to the
+midi library<br/>
+In 2006, the authors, Tim Thomson and M. Czeiszperger, agreed to make
+their contributions public domain (according to Norman Megill).</li>
+<li>Wiel Seuskens <a class="email" href="mailto:wiel@wiels.com">wiel@wiels.com</a> http://wiels.com/ Amiga version
+(1994)</li>
+<li>Erich Neuwirth <a class="email" href="mailto:erich.neuwirth@univie.ac.at">erich.neuwirth@univie.ac.at</a> Changes for GCC.
+(2003)</li>
+<li>Norman Megill (deceased in 2021) Metamath
+https://us.metamath.org/mpeuni/mmmusic.html</li>
+<li>Luca Ciciriello modified the program to run on MacOSX (ppc/Intel
+386). Universal binaries can be found at
+https://us.metamath.org/downloads/mf2t.zip. Look in
+<code>mf2t/mf2t-Mac/Midi_MacOSX_Xcode/Midi_MacOSX_Xcode/</code> (2006)
+<code>midisrc</code> for source code, <code>midibin</code> for binaries.
+<strong>Latest patches not applied</strong>.</li>
+<li>Nide Naoyuki (Japanese word order - Naoyuki Nide - European word
+order) <a class="email" href="mailto:nide@ics.nara-wu.ac.jp">nide@ics.nara-wu.ac.jp</a>. Some patches which are
+superseded by Mats Peterson’s version. (2009) From
+https://groups.google.com/g/fj.sources/c/MGThNnFxpEw</li>
+<li>Vaclav Spirhanzl <a class="email" href="mailto:vjs.blog@gmail.com">vjs.blog@gmail.com</a>: Mac version, change of using
+strerror instead of sys_errlist (2011) From
+https://en.freedownloadmanager.org/Mac-OS/MacMIDIt2mf-FREE.html
+https://macdownload.informer.com/macmidit2mf/download/ These changes are
+included in Mats Peterson’s version.</li>
+<li>Yin Dian <a class="email" href="mailto:yindian@gmail.com">yindian@gmail.com</a> Some bugfixes, superseded by below
+versions (2014). https://github.com/yindian/midi2text</li>
+<li>Mats Peterson <a class="email" href="mailto:mats.peterson@gmail.com">mats.peterson@gmail.com</a> C-99 compatible + other
+changes (open files). From https://github.com/codenotes/mf2t version
+20150711. Ported to Windows.</li>
+<li>Phil Budne <a class="email" href="mailto:phil@ultimate.com">phil@ultimate.com</a> https://github.com/philbudne/mf2t
+(2021). Various changes, of which I used a few, especially using
+<code>perror</code> instead of
+<code>fprintf(stderr, ... strerror...</code>.</li>
+</ul>
+<p>Pieter van Oostrum<br/>
+email: pieter@vanoostrum.org<br/>
+www: <a class="uri" href="https://pieter.vanoostrum.org">https://pieter.vanoostrum.org</a></p>
+
+</body>
+</html>

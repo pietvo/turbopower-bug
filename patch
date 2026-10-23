@@ -1,0 +1,11 @@
+--- /Users/pieter/fpcupdeluxe/lazarus/components/turbopower_ipro/iputils.pas	2026-08-27 12:13:21.441315532 +0200
++++ /Users/pieter/TEST/PASCAL/tryout/iputils.pas	2026-10-23 14:59:29.250505013 +0200
+@@ -1739,8 +1739,6 @@
+     end
+     else begin
+       Path := ExtractEntityPath(DosToNetPath(OldAddrRec.Path));
+-      if (Path <> '') and (Path[1] = '/') then
+-        Path := Copy(Path, 2, Length(Path) - 1);
+       Result := Scheme;
+ 
+       if OldAddrRec.Authority <> '' then
